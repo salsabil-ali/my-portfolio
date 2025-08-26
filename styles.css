@@ -348,6 +348,10 @@ header {
     padding:  0 2rem  5rem 2rem;
     text-align: center;
     margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .contact h6{
    font-size: 15px;
@@ -362,7 +366,7 @@ header {
 
 .contact-info  {
     display: flex;
-    align-items: center;
+   
     justify-content:center;
     flex-direction: row;
     gap: 30px;
@@ -386,8 +390,10 @@ header {
 
 .contact-info img {
     width: 30px;
+    margin-right: 5px;
 }
 .contact-info div{
+    display: flex;
    justify-content: center;
    align-items: center;
     text-align: center;
